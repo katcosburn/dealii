@@ -1,0 +1,7 @@
+In the "possible extensions" section of step-2, it starts by asking user to explore how the sparsity pattern changes by using higher-order elements in the distribute_dofs function (ie. p-refinement).
+
+The next line then stated "or, you could see how the sparsity pattern changes with more refinements", which I found confusing and redundant given that the higher-order element extension suggestion was a refinement. 
+
+I assumed that what was meant was for one to now explore how the sparsity pattern changes when the mesh is refined (ie. h-refinement). I thus changed the documentation to make the distinction between these two refinement methods more clear.
+
+(Katherine Cosburn, 2019/08/06)
